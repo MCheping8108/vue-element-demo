@@ -28,7 +28,7 @@
     <p>由<a href="https://yiyan.baidu.com/">文心一言</a>编写</p>
   </template>  
     
-  <script>  
+  <script lang="ts">  
   export default {  
     data() {  
       return {  
