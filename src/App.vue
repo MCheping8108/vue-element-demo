@@ -22,6 +22,7 @@ const handleSelect = (key: string, keyPath: string[]) => {
       <template #title>demo</template>
       <RouterLink to="/"><el-menu-item index="2-1">主页</el-menu-item></RouterLink>
       <RouterLink to="/about"><el-menu-item index="2-2">about</el-menu-item></RouterLink>
+      <RouterLink to="/userforms"><el-menu-item index="2-3">userforms</el-menu-item></RouterLink>
       
     </el-sub-menu>
   </el-menu>
