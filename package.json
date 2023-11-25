@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
+    "@tresjs/core": "^3.5.0",
     "element-plus": "^2.4.2",
+    "three": "^0.158.0",
     "vercel": "^32.5.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@types/three": "^0.158.3",
     "@vitejs/plugin-vue": "^4.2.3",
     "sass": "^1.69.5",
     "typescript": "^5.0.2",
