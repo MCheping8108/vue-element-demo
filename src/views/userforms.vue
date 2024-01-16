@@ -31,8 +31,6 @@
 <script lang="ts">
 import { ElNotification } from "element-plus";
 
-import "element-plus/theme-chalk/src/base.scss";
-import "element-plus/theme-chalk/src/notification.scss";
 
 export default {
   data() {
@@ -48,11 +46,20 @@ export default {
   methods: {
     submitForm() {
       // 提交表单，进行后续操作
+      // 如果表单内容什么都不写，弹出警告框
+      if ( this.form.username === "" || this.form.password === "" || this.form.hobbies.length === 0 || this.form.gender === "" ) {
         ElNotification({
-          title: "Success",
-          message: "This is a success message",
+          title: "警告",
+          message: "表单内容不能为空",
+          type: "warning",
+        })
+      } else {
+        ElNotification({
+          title: "成功",
+          message: "你成功提交表单",
           type: "success",
         });
+      }
     },
   },
 };
