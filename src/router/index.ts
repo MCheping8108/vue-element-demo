@@ -7,6 +7,7 @@ const router = createRouter({
         {path: '/about', name: 'about', component: () => import('../views/about.vue')},
         {path: '/userforms', name: 'userforms', component: () => import('../views/userforms.vue')},
         // {path: '/tresjs-3d', name: 'tresjs-3d', component: () => import('../views/tresjs-3d.vue')},
+        {path: '/colorsButton', name: 'colorsButton', component: () => import('../views/colorsButton.vue')},
     ]
 })
 

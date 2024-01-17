@@ -8,6 +8,7 @@ import "element-plus/theme-chalk/src/notification.scss";
 // import Tres from '@tresjs/core'
 // import THREE from 'three'
 // import ElementPlus from 'element-plus'
+import { ElNotification } from "element-plus";
 
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
