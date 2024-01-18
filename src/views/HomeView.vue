@@ -11,7 +11,8 @@
     width="30%"
     :before-close="handleClose"
   >
-    <span>准备就绪</span>
+    <span>同志！</span>
+    <img src="../assets/soivet.jpg" alt="">
     <template #footer>
       <span class="dialog-footer">
         <el-button @click="dialogVisible = false">Cancel</el-button>
@@ -43,6 +44,10 @@ const handleClose = (done: () => void) => {
 </script>
 
 <style>
+img {
+  width: 100%;
+  height: 500;
+}
 .title-h1 {
   text-align: center;
   margin-top: 100px;
